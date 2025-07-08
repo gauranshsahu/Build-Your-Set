@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Your Set</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Build Your Set</h1>
+            <p>Drinking Water Has Never Been More Fun!</p>
+        </header>
+        <!-- Part:1 -->
+        <div class="container">
+            <div class="step-header">
+                <span class="step-number">1</span>
+                <h2>Choose The Number <br> Of Flavor Sets</h2>
+            </div>
+            <div class="options">
+                <div class="option">
+                    <h3>1 Selah Bottle & 4 Flavor Packs</h3>
+                    <p class="price"><span class="old-price">$00.00</span> $00.00</p>
+                </div>
+                <div class="option">
+                    <span class="badge blue">Best Seller</span>
+                    <h3>1 Selah Bottle & 10 Flavor Packs</h3>
+                    <p class="price"><span class="old-price">$00.00</span> $00.00</p>
+                </div>
+                <div class="option">
+                    <span class="badge pink">Save 20%</span>
+                    <h3>1 Selah Bottle & 16 Flavor Packs</h3>
+                    <p class="price"><span class="old-price">$00.00</span> $00.00</p>
+                </div>
+            </div>
+        </div>
+        <!-- Part:2 -->
+        <div class="container">
+            <div class="step-header">
+                <span class="step-number">2</span>
+                <h2>Choose Your Bottle!</h2>
+            </div>
+            <div class="bottle-options">
+                <div class="bottle">
+                    <img src="assets/1.png" alt="Pink Bottle">
+                    <p>Pink</p>
+                </div>
+                <div class="bottle">
+                    <img src="assets/2.png" alt="Blue Bottle">
+                    <p>Blue</p>
+                </div>
+                <div class="bottle">
+                    <img src="assets/3.png" alt="White Bottle">
+                    <p>White</p>
+                </div>
+                <div class="bottle">
+                    <img src="assets/6.png" alt="Green Bottle">
+                    <p>Green</p>
+                </div>
+                <div class="bottle">
+                    <img src="assets/5.png" alt="Blue & White Bottle">
+                    <p>Blue & White</p>
+                </div>
+                <div class="bottle">
+                    <img src="assets/6.png" alt="Green & Pink Bottle">
+                    <p>Green & Pink</p>
+                </div>
+                <div class="bottle">
+                    <img src="assets/7.png"alt="Pink & Green Bottle">
+                    <p>Pink & Green</p>
+                </div>
+                <div class="bottle">
+                    <img src="assets/8.png" alt="White & Pink Bottle">
+                    <p>White & Pink</p>
+                </div>
+            </div>
+        </div>
+        <!-- part:3 -->
+        <div class="container">
+            <div class="header">
+                <h2>Sort Your Box With Our Best-Selling Flavors</h2>
+            </div>
+    
+            <div class="flavor-options">
+                <button class="flavor-btn">Caffeine</button>
+                <button class="flavor-btn">Electrolyte</button>
+                <button class="flavor-btn">Unsweetened</button>
+                <button class="flavor-btn">Vitamin</button>
+            </div>
+        </div>
+            <header>
+                <div class="step-header">
+                    <span class="step-number">3</span>
+                    <h2>Choose Your Flavor</h2>
+                </div>
+                <div class="choose-your-flavor-heading">
+                    <div class="container">
+                    </div>
+                    <div style="display: flex; justify-content: center; align-items: center; gap:10px;">
+                        <h2 style="color: #44A1DF;">More Pods, More Discounts!</h2>
+                        <p>In Cart: <span style="color:#44A1DF; font-weight: 600;">2 Pods </span><span class="price">$24.99</span></p>
+                    </div>
+                    <div class="filter" style="display: flex; justify-content: space-between; align-items: center;">`
+                        <span>Showing: <b style="color:green;">All Flavors</b></span>
+                        <div class="filter-options">
+                            <label for="vitamin-filter">Filter: </label>
+                            <select style="background-color: #F4F1E2; font-family: Greycliff Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; padding: 4px; border-radius: 5px;" id="category-filter" onclick="filterProducts()">
+                            <option value="all">All Flavors</option>
+                            <option value="vitamin">Vitamin</option>
+                            <option value="Caffeine">Caffeine</option>
+                            <option value="Electrolyte">Electrolyte</option>
+                            <option value="Unsweetened">Unsweetened</option>
+                            </select>
+                          </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section class="product-grid">
+                    <div class="product-card" data-category="vitamin">
+                        <img src="assets/14.webp" alt="Peach Iced Tea Vitamin">
+                        <h3>Peach Iced Tea Vitamin</h3>
+                        <div class="quantity-selector">
+                            <button class="decrease">-</button>
+                            <span>0</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="Caffeine">
+                        <img src="assets/13.webp" alt="Berry Blast Energy Caffeine">
+                        <h3>Berry Blast Energy Caffeine</h3>
+                        <div class="quantity-selector">
+                            <button class="decrease">-</button>
+                            <span>0</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="Caffeine">
+                        <img src="assets/12.jpg" alt="Orange Sport Caffeine">
+                        <h3>Orange Sport Caffeine</h3>
+                        <div class="quantity-selector">
+                            <button class="decrease">-</button>
+                            <span>0</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="Electrolyte">
+                        <img src="assets/11.webp" alt="Pineapple Electrolyte">
+                        <h3>Pineapple Electrolyte</h3>
+                        <div class="quantity-selector">
+                            <button class="decrease">-</button>
+                            <span>0</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="Unsweetened">
+                        <img src="assets/10.webp" alt="Strawberry Lemonade Unsweetened">
+                        <h3>Strawberry Lemonade Unsweetened </h3>
+                        <div class="quantity-selector">
+                            <button class="decrease">-</button>
+                            <span>0</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="product-card"data-category="vitamin">
+                        <img src="assets/9.webp" alt="Fruit Punch Vitamin">
+                        <h3>Fruit Punch Vitamin</h3>
+                        <div class="quantity-selector">
+                            <button class="decrease">-</button>
+                            <span>0</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="vitamin">
+                        <img src="assets/14.webp" alt="Watermelon Vitamin">
+                        <h3>Watermelon Vitamin</h3>
+                        <div class="quantity-selector">
+                            <button class="decrease">-</button>
+                            <span>0</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="Electrolyte">
+                        <img src="assets/13.webp" alt="Crisp Green Apple Electrolyte">
+                        <h3>Crisp Green Apple Electrolyte</h3>
+                        <div class="quantity-selector">
+                            <button class="decrease">-</button>
+                            <span>0</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="Unsweetened">
+                        <img src="assets/12.jpg" alt="Lemon Unsweetened">
+                        <h3>Lemon Unsweetened</h3>
+                        <div class="quantity-selector">
+                            <button class="decrease">-</button>
+                            <span>0</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="Electrolyte">
+                        <img src="assets/11.webp" alt="Watermelon Sport Electrolyte">
+                        <h3>Watermelon Sport Electrolyte</h3>
+                        <div class="quantity-selector">
+                            <button class="decrease">-</button>
+                            <span>0</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="vitamin">
+                        <img src="assets/10.webp" alt="Watermelon Vitamin">
+                        <h3>Watermelon Vitamin</h3>
+                        <div class="quantity-selector">
+                            <button class="decrease">-</button>
+                            <span>0</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="Unsweetened">
+                        <img src="assets/9.webp" alt="Crisp Green Apple Unsweetened">
+                        <h3>Crisp Green Apple Unsweetened</h3>
+                        <div class="quantity-selector">
+                            <button class="decrease">-</button>
+                            <span>0</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                </section>
+                <aside class="cart-summary">
+                    <h2>Add More & Save!</h2>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 0%;"></div>
+                        <h3>Add More & Save!</h3>
+                        <div class="progress-bar">
+                            <span class="progress-point active">3</span>
+                            <span class="progress-line"></span>
+                            <span class="progress-point active">16</span>
+                            <span class="progress-line"></span>
+                            <span class="progress-point active">24</span>
+                        </div>
+                    </div>
+                    <li class="cart-item free free-bottle">
+                        <span class="item-title"><strong>Selah Water Bottle</strong></span>
+                        <span>Free New Flavor With Every Box</span>
+                        <span class="free-label">FREE</span>
+                    </li>
+                    <li class="cart-item free  free-bottle">
+                        <img src="" alt="">
+                        <span class="item-title"><strong>+ Monthly In-Development Flavor</strong></span>
+                        <span>Free With Your Subscription</span>
+                        <span class="free-label">FREE</span>
+                    </li>
+                    </li>
+                    <ul class="cart-items">
+                    </ul>
+                    <button class="checkout-btn">Checkout</button>
+                    <p class="discount-text">You're Saving 33% On Your Box!</p>
+                    <div class="cart-footer">
+                        <span class="shipping-info">🚚 Free Shipping In The USA</span>
+                        <span class="money-back">💰 Money-Back Guarantee</span>
+                    </div>
+                </aside>
+            </main>
+    <script src="script.js"></script>
+</body>
+</html>
