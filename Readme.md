@@ -103,7 +103,7 @@ Responsive design for mobile and desktop.
 🛠 Tech Stack (Assumed / Recommend Adding if implemented)
 HTML, CSS, JavaScript
 
-React / Vue / Angular (ypu can also use)
+React / Vue / Angular (you can also use)
 
 State Management for real-time UI syncing
 
